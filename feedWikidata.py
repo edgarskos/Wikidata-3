@@ -34,28 +34,24 @@ def idClean(data):
     return  str(data).lstrip('[[wikidata:').rstrip(']]')   
 
 def createClaim(s,l):        
-    dataS=dataLoad(s)
-    dicoS=dataS.get()
-    if dataS!="None":
+    try:
+        dataS=dataLoad(s)
+        dicoS=dataS.get()
         if propExists(property,dicoS['claims'])==True:
             retour="La propriété P" + str(property) +" existe pour "+ s.encode('utf-8') + " = " + idClean(dataS)
             return retour
         else:
-            dataL=dataLoad(l)
-            dicoL=dataL.get()
-            if dataL!="None":
+            try:
+                dataL=dataLoad(l)
+                dicoL=dataL.get()
                 dataS.editclaim("p"+str(property), idClean(dataL) ,refs={("p143","Q8447")})
-            else:
-                retour="La page correspondante à "+ l.encode('utf-8') + " n'existe pas."
-                return retour
-    else:
-        retour="La page correspondante à "+ s.encode('utf-8') + " n'existe pas."
-        return retour
+            except pywikibot.NoPage:
+                pywikibot.output(u'Page does not exist?!')            
+    except pywikibot.NoPage:
+        pywikibot.output(u'Page does not exist?!')
     
 # JSON example
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 for result in results["results"]["bindings"]:
     print createClaim(toWikiID(result["s"]["value"]),toWikiID(result["l"]["value"]))
-        
-        
