@@ -18,11 +18,14 @@ def toWikiID(uri):
     else:
         return uri.lstrip('http://dbpedia.org/resource/')
         
-def propExists(prop,claims):
+def propExists(prop,claims,entity):
     for datatmp in claims:
         if datatmp['m'][1]==prop:
-            return True
-            break
+             if type(datatmp['m'][3])==dict:
+                if datatmp['m'][3].has_key('numeric-id'):
+                    if datatmp['m'][3]['numeric-id']==entity:
+                        return True
+                        break
     return False
     
 def dataLoad(wikiId):
@@ -31,22 +34,28 @@ def dataLoad(wikiId):
     return data
     
 def idClean(data):
-    return  str(data).lstrip('[[wikidata:').rstrip(']]')   
+    return  str(data).lstrip('[[wikidata:').rstrip(']]')
+    
+def idCleanPlus(data):
+    return  int(str(data).lstrip('[[wikidata:Q').rstrip(']]'))
 
 def createClaim(s,l):        
     try:
         dataS=dataLoad(s)
         dicoS=dataS.get()
-        if propExists(property,dicoS['claims'])==True:
-            retour="La propriété P" + str(property) +" existe pour "+ s.encode('utf-8') + " = " + idClean(dataS)
-            return retour
-        else:
-            try:
-                dataL=dataLoad(l)
-                dicoL=dataL.get()
-                dataS.editclaim("p"+str(property), idClean(dataL) ,refs={("p143","Q8447")})
-            except pywikibot.NoPage:
-                pywikibot.output(u'Page does not exist?!')            
+        try:
+            dataL=dataLoad(l)
+            dicoL=dataL.get()
+            if propExists(property,dicoS['claims'],idCleanPlus(dataL))==True:
+                retour="La propriété P" + str(property).encode('utf-8') +" existe pour "+ s.encode('utf-8') + " = " + idClean(dataS).encode('utf-8') + " avec pour valeur " + idClean(dataL).encode('utf-8') + " = " + l.encode('utf-8')
+                return retour
+            else:
+                try:
+                    dataS.editclaim("p"+str(property), idClean(dataL) ,refs={("p143","Q8447")})
+                except pywikibot.EditConflict:
+                    pywikibot.output(u'Skipping because of edit conflict')
+        except pywikibot.NoPage:
+            pywikibot.output(u'Page does not exist?!')            
     except pywikibot.NoPage:
         pywikibot.output(u'Page does not exist?!')
     
@@ -55,3 +64,5 @@ sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 for result in results["results"]["bindings"]:
     print createClaim(toWikiID(result["s"]["value"]),toWikiID(result["l"]["value"]))
+        
+        
