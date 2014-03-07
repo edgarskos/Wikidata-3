@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:afs="urn:afs:identifier/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/0">
+	<dcterms:identifier>Q1547286</dcterms:identifier>
+	<afs:essai>lesartsdecoratifs</afs:essai>
+	<afs:twitter>artsdecoratifs</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<dcterms:identifier>Q182542</dcterms:identifier>
+	<afs:essai>archives.nationales</afs:essai>
+	<afs:twitter>ArchivesnatFr</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/2">
+	<dcterms:identifier>Q193563</dcterms:identifier>
+	<afs:essai>pages/BnF-Bibliothèque-nationale-de-France/298822067879</afs:essai>
+	<afs:twitter>ActuBnF</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/3">
+	<dcterms:identifier>Q1492436</dcterms:identifier>
+	<afs:essai>GallicaBnF</afs:essai>
+	<afs:twitter>GallicaBnF</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/4">
+	<dcterms:identifier>Q2901506</dcterms:identifier>
+	<afs:essai>bpi.pompidou</afs:essai>
+	<afs:twitter>Bpi_Pompidou</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/5">
+	<dcterms:identifier>Q2944288</dcterms:identifier>
+	<afs:essai>le104</afs:essai>
+	<afs:twitter>CENTQUATRE</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/6">
+	<dcterms:identifier>Q2945014</dcterms:identifier>
+	<afs:essai>pages/Centre-culturel-suisse/161348083892765</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/7">
+	<dcterms:identifier>Q2945551</dcterms:identifier>
+	<afs:essai>leCMN</afs:essai>
+	<afs:twitter>leCMN</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/8">
+	<dcterms:identifier>Q2072647</dcterms:identifier>
+	<afs:essai>cnap.fr</afs:essai>
+	<afs:twitter>CNAPfr</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/9">
+	<dcterms:identifier>Q178065</dcterms:identifier>
+	<afs:essai>centrepompidou.fr</afs:essai>
+	<afs:twitter>centrepompidou</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/10">
+	<dcterms:identifier>Q2968175</dcterms:identifier>
+	<afs:essai>chateau.auvers</afs:essai>
+	<afs:twitter>chateauauvers</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/11">
+	<dcterms:identifier>Q161787</dcterms:identifier>
+	<afs:essai>ChateauDeChampsSurMarne</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/12">
+	<dcterms:identifier>Q201428</dcterms:identifier>
+	<afs:essai>pages/Château-de-Fontainebleau-Officiel/261323787260260</afs:essai>
+	<afs:twitter>CFontainebleau</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/13">
+	<dcterms:identifier>Q684846</dcterms:identifier>
+	<afs:essai>chateau.malmaison</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/14">
+	<dcterms:identifier>Q13334444</dcterms:identifier>
+	<afs:essai>pages/Musée-de-Dieppe/254305881375226</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/15">
+	<dcterms:identifier>Q2970121</dcterms:identifier>
+	<afs:essai>pages/Château-Musée-de-Nemours/157031177682395</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/16">
+	<dcterms:identifier>Q648534</dcterms:identifier>
+	<afs:essai>ChateauDeRambouillet</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/17">
+	<dcterms:identifier>Q2946</dcterms:identifier>
+	<afs:essai>chateauversailles</afs:essai>
+	<afs:twitter>CVersailles</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/18">
+	<dcterms:identifier>Q174274</dcterms:identifier>
+	<afs:essai>cinemathequefr</afs:essai>
+	<afs:twitter>cinemathequefr</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/19">
+	<dcterms:identifier>Q537515</dcterms:identifier>
+	<afs:essai>Citedel'architecture</afs:essai>
+	<afs:twitter>Citedelarchi</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/20">
+	<dcterms:identifier>Q2974758</dcterms:identifier>
+	<afs:essai>pages/Cité-de-léconomie-et-de-la-monnaie/154188361415979</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/21">
+	<dcterms:identifier>Q1094302</dcterms:identifier>
+	<afs:essai>citedelamusiqueparis</afs:essai>
+	<afs:twitter>citedelamusique</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/22">
+	<dcterms:identifier>Q1094332</dcterms:identifier>
+	<afs:essai>citeimmigration</afs:essai>
+	<afs:twitter>citeimmigration</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/23">
+	<dcterms:identifier>Q1094338</dcterms:identifier>
+	<afs:essai>Cite.des.sciences</afs:essai>
+	<afs:twitter>citedessciences </afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/24">
+	<dcterms:identifier>Q609711</dcterms:identifier>
+	<afs:essai>lecube.digitalart</afs:essai>
+	<afs:twitter>lecubetwit</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/25">
+	<dcterms:identifier>Q3007475</dcterms:identifier>
+	<afs:essai>pages/Culturespaces/126329620760533?</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/26">
+	<dcterms:identifier>Q2030715</dcterms:identifier>
+	<afs:essai>pages/Domaine-national-de-Saint-Cloud/130605436989537</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/27">
+	<dcterms:identifier>Q273593</dcterms:identifier>
+	<afs:essai>beauxartcollections</afs:essai>
+	<afs:twitter>ENSBA_FR</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/28">
+	<dcterms:identifier>Q1284688</dcterms:identifier>
+	<afs:essai>FondationCartier</afs:essai>
+	<afs:twitter>Fond_Cartier</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/29">
+	<dcterms:identifier>Q3225673</dcterms:identifier>
+	<afs:essai>Fracidf</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/30">
+	<dcterms:identifier>Q206456</dcterms:identifier>
+	<afs:essai>GrandPalais.RMN</afs:essai>
+	<afs:twitter>GrandPalaisRmn</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/31">
+	<dcterms:identifier>Q860166</dcterms:identifier>
+	<afs:essai>institututdumondearabe</afs:essai>
+	<afs:twitter>imarabe</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/32">
+	<dcterms:identifier>Q927844</dcterms:identifier>
+	<afs:essai>Institutesuedois</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/33">
+	<dcterms:identifier>Q3152376</dcterms:identifier>
+	<afs:essai>BbliothequeInha</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/34">
+	<dcterms:identifier>Q656296</dcterms:identifier>
+	<afs:essai>jeudepaumeparis</afs:essai>
+	<afs:twitter>jeudepaumeparis</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/35">
+	<dcterms:identifier>Q3329594</dcterms:identifier>
+	<afs:essai>pages/MACVAL-Musée-dArt-Contemporain-du-Val-de-Marne/86974822160</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/36">
+	<dcterms:identifier>Q3280136</dcterms:identifier>
+	<afs:essai>pages/Maba-Maison-dart-Bernard-Anthonioz/159525151228</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/37">
+	<dcterms:identifier>Q2599177</dcterms:identifier>
+	<afs:essai>pages/Maisons-de-Victor-Hugo-Paris/160681813952769</afs:essai>
+	<afs:twitter>MVHugo</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/38">
+	<dcterms:identifier>Q6463620</dcterms:identifier>
+	<afs:essai>lamaisonrouge.antoinedegalbert</afs:essai>
+	<afs:twitter>lamaisonrouge</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/39">
+	<dcterms:identifier>Q3330509</dcterms:identifier>
+	<afs:essai>albert.kahn</afs:essai>
+	<afs:twitter>museealbertkahn</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/40">
+	<dcterms:identifier>Q2342844</dcterms:identifier>
+	<afs:essai>pages/Musée-dArchéologie-nationale-et-Domaine-national-de-Saint-Germain-en-Laye/120923744594801</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/41">
+	<dcterms:identifier>Q1996069</dcterms:identifier>
+	<afs:essai>MuseeArmeeInvalides</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/42">
+	<dcterms:identifier>Q977732</dcterms:identifier>
+	<afs:essai>pages/Musée-dart-et-dhistoire-du-Judaïsme/198600596796</afs:essai>
+	<afs:twitter>infosdumahj</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/43">
+	<dcterms:identifier>Q1538826</dcterms:identifier>
+	<afs:essai>musee.des.arts.et.metiers</afs:essai>
+	<afs:twitter>artsetmetiers</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/44">
+	<dcterms:identifier>Q857276</dcterms:identifier>
+	<afs:essai>pages/Musée-dArt-moderne-de-la-Ville-de-Paris/104220355682</afs:essai>
+	<afs:twitter>MAM</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/45">
+	<dcterms:identifier>Q1998638</dcterms:identifier>
+	<afs:essai>pages/Musée-de-lAP-HP/164381627014696</afs:essai>
+	<afs:twitter>MuseeAP_HP</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/46">
+	<dcterms:identifier>Q640447</dcterms:identifier>
+	<afs:essai>Carnavalet</afs:essai>
+	<afs:twitter>museecarnavalet</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/47">
+	<dcterms:identifier>Q1667022</dcterms:identifier>
+	<afs:essai>pages/Musée-Cernuschi-musée-des-arts-de-lAsie-de-la-Ville-de-Paris/240914365956877</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/48">
+	<dcterms:identifier>Q1572452</dcterms:identifier>
+	<afs:essai>pages/Musée-Cognacq-Jay/368308809952446</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/49">
+	<dcterms:identifier>Q1782606</dcterms:identifier>
+	<afs:essai>MuseeEugeneDelacroix</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/50">
+	<dcterms:identifier>Q611062</dcterms:identifier>
+	<afs:essai>pages/Page-Officielle-du-Musée-de-la-Grande-Guerre-du-Pays-de-Meaux/212427308781857</afs:essai>
+	<afs:twitter>M2GMeaux</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/51">
+	<dcterms:identifier>Q860994</dcterms:identifier>
+	<afs:twitter>MuseeGuimet</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/52">
+	<dcterms:identifier>Q2296362</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/53">
+	<dcterms:identifier>Q1165526</dcterms:identifier>
+	<afs:essai>MuseeJacquemartAndre</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/54">
+	<dcterms:identifier>Q1955698</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/55">
+	<dcterms:identifier>Q19675</dcterms:identifier>
+	<afs:essai>museedulouvre</afs:essai>
+	<afs:twitter>MuseeLouvre</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/56">
+	<dcterms:identifier>Q1411180</dcterms:identifier>
+	<afs:twitter>museeluxembourg</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/57">
+	<dcterms:identifier>Q3330506</dcterms:identifier>
+	<afs:essai>museeMauriceDenis</afs:essai>
+	<afs:twitter>MuseeMDenis</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/58">
+	<dcterms:identifier>Q479218</dcterms:identifier>
+	<afs:twitter>Shoah_Memorial</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/59">
+	<dcterms:identifier>Q1286709</dcterms:identifier>
+	<afs:essai>museemarine.paris</afs:essai>
+	<afs:twitter>museemarine</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/60">
+	<dcterms:identifier>Q3330694</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/61">
+	<dcterms:identifier>Q726781</dcterms:identifier>
+	<afs:essai>museedelorangerie</afs:essai>
+	<afs:twitter>MuseeOrangerie</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/62">
+	<dcterms:identifier>Q23402</dcterms:identifier>
+	<afs:essai>museedorsay</afs:essai>
+	<afs:twitter>MuseeOrsay</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/63">
+	<dcterms:identifier>Q2915606</dcterms:identifier>
+	<afs:essai>museeplansreliefs</afs:essai>
+	<afs:twitter>Plansreliefs</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/64">
+	<dcterms:identifier>Q3330061</dcterms:identifier>
+	<afs:twitter>museedelaposte</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/65">
+	<dcterms:identifier>Q167863</dcterms:identifier>
+	<afs:essai>museeduquaibranly</afs:essai>
+	<afs:twitter>quaibranly</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/66">
+	<dcterms:identifier>Q1817122</dcterms:identifier>
+	<afs:essai>musee.renaissance.officiel</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/67">
+	<dcterms:identifier>Q3330076</dcterms:identifier>
+	<afs:twitter>MuseeToileJouy</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/68">
+	<dcterms:identifier>Q650519</dcterms:identifier>
+	<afs:essai>museerodin</afs:essai>
+	<afs:twitter>MuseeRodinParis</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/69">
+	<dcterms:identifier>Q838691</dcterms:identifier>
+	<afs:essai>museumnationaldhistoirenaturelle</afs:essai>
+	<afs:twitter>Le_Museum</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/70">
+	<dcterms:identifier>Q3354577</dcterms:identifier>
+	<afs:twitter>operadeparis</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/71">
+	<dcterms:identifier>Q614450</dcterms:identifier>
+	<afs:essai>Palaisdeladecouverte</afs:essai>
+	<afs:twitter>palaisdecouvert</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/72">
+	<dcterms:identifier>Q1632912</dcterms:identifier>
+	<afs:twitter>PalaisGalliera</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/73">
+	<dcterms:identifier>Q1535247</dcterms:identifier>
+	<afs:essai>palaisdetokyo</afs:essai>
+	<afs:twitter>PalaisdeTokyo</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/74">
+	<dcterms:identifier>Q246448</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/75">
+	<dcterms:identifier>Q820892</dcterms:identifier>
+	<afs:twitter>PetitPalais_</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/76">
+	<dcterms:identifier>Q767164</dcterms:identifier>
+	<afs:essai>sevres.cite.de.la.ceramique</afs:essai>
+	<afs:twitter>sevresceramique</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/77">
+	<dcterms:identifier>Q3230368</dcterms:identifier>
+	<afs:essai>lesabattoirs</afs:essai>
+	<afs:twitter>lesabattoirs</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/78">
+	<dcterms:identifier>Q283254</dcterms:identifier>
+	<afs:essai>abbayedefontevraud</afs:essai>
+	<afs:twitter>fontevraud</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/79">
+	<dcterms:identifier>Q2860496</dcterms:identifier>
+	<afs:essai>archives.departementales.Manche</afs:essai>
+	<afs:twitter>ArchivesManche </afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/80">
+	<dcterms:identifier>Q2945071</dcterms:identifier>
+	<afs:twitter>CAPCmusee</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/81">
+	<dcterms:identifier>Q1054169</dcterms:identifier>
+	<afs:essai>pompidoumetz</afs:essai>
+	<afs:twitter>PompidouMetz</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/82">
+	<dcterms:identifier>Q3231356</dcterms:identifier>
+	<afs:twitter>LesChampsLibres</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/83">
+	<dcterms:identifier>Q2968643</dcterms:identifier>
+	<afs:essai>ChateaudeBoutheon</afs:essai>
+	<afs:twitter>ChateauBoutheon</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/84">
+	<dcterms:identifier>Q2971172</dcterms:identifier>
+	<afs:essai>labuzine</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/85">
+	<dcterms:identifier>Q639057</dcterms:identifier>
+	<afs:essai>chateauconde</afs:essai>
+	<afs:twitter>chateaudeconde</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/86">
+	<dcterms:identifier>Q1122731</dcterms:identifier>
+	<afs:essai>closluce.chateaudu</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/87">
+	<dcterms:identifier>Q1289258</dcterms:identifier>
+	<afs:essai>chateaunantes</afs:essai>
+	<afs:twitter>chateaunantes</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/88">
+	<dcterms:identifier>Q2970560</dcterms:identifier>
+	<afs:essai>chateausaintmesmin</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/89">
+	<dcterms:identifier>Q205367</dcterms:identifier>
+	<afs:essai>domainenationaldechambord</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/90">
+	<dcterms:identifier>Q3034418</dcterms:identifier>
+	<afs:essai>pages/Domaine-de-Chantilly-officiel/73823663282</afs:essai>
+	<afs:twitter>chantillydomain</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/91">
+	<dcterms:identifier>Q3058190</dcterms:identifier>
+	<afs:essai>Esoacedessciences</afs:essai>
+	<afs:twitter>Espace_sciences</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/92">
+	<dcterms:identifier>Q371069</dcterms:identifier>
+	<afs:essai>ForteresseDeSalses</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/93">
+	<dcterms:identifier>Q1607765</dcterms:identifier>
+	<afs:essai>musee.lam</afs:essai>
+	<afs:twitter>lammusee</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/94">
+	<dcterms:identifier>Q3280225</dcterms:identifier>
+	<afs:essai>MaisonNataleCharlesdeGaulle</afs:essai>
+	<afs:twitter>MNdeGaulle</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/95">
+	<dcterms:identifier>Q2808698</dcterms:identifier>
+	<afs:essai>lemucem</afs:essai>
+	<afs:twitter>MuCEM_Officiel</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/96">
+	<dcterms:identifier>Q8330</dcterms:identifier>
+	<afs:essai>maclyon</afs:essai>
+	<afs:twitter>macLyon</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/97">
+	<dcterms:identifier>Q2711480</dcterms:identifier>
+	<afs:essai>MuseedesAugustins</afs:essai>
+	<afs:twitter>MuseeAugustins</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/98">
+	<dcterms:identifier>Q1783956</dcterms:identifier>
+	<afs:essai>MuseedesBeauxArtNantes</afs:essai>
+	<afs:twitter>mbanantes</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/99">
+	<dcterms:identifier>Q2967822</dcterms:identifier>
+	<afs:essai>museebsm</afs:essai>
+	<afs:twitter>useebsm</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/100">
+	<dcterms:identifier>Q15814098</dcterms:identifier>
+	<afs:essai>lemuseebonnard</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/101">
+	<dcterms:identifier>Q3330235</dcterms:identifier>
+	<afs:essai>Museedescanonniers</afs:essai>
+	<afs:twitter>CanonniersLille</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/102">
+	<dcterms:identifier>Q6943560</dcterms:identifier>
+	<afs:twitter>MuseeDuChocolat</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/103">
+	<dcterms:identifier>Q8352</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/104">
+	<dcterms:identifier>Q1955741</dcterms:identifier>
+	<afs:essai>museedeparlesantique</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/105">
+	<dcterms:identifier>Q3329157</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/106">
+	<dcterms:identifier>Q3329906</dcterms:identifier>
+	<afs:essai>museechartreuse</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/107">
+	<dcterms:identifier>Q3329828</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/108">
+	<dcterms:identifier>Q2490344</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/109">
+	<dcterms:identifier>Q2036663</dcterms:identifier>
+	<afs:essai>museedeprehistoirelussac</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/110">
+	<dcterms:identifier>Q3330785</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/111">
+	<dcterms:identifier>Q3330493</dcterms:identifier>
+	<afs:essai>musee.du.vieux.saint.etienne</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/112">
+	<dcterms:identifier>Q1376</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/113">
+	<dcterms:identifier>Q3329755</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/114">
+	<dcterms:identifier>Q3330146</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/115">
+	<dcterms:identifier>Q220280</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/116">
+	<dcterms:identifier>Q8397</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/117">
+	<dcterms:identifier>Q3328421</dcterms:identifier>
+	<afs:essai>museemuseedepartementaldethnographie.arlesdepartementaldethnographie.arles</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/118">
+	<dcterms:identifier>Q3329688</dcterms:identifier>
+	<afs:essai>mhnlille</afs:essai>
+	<afs:twitter>MHNLille</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/119">
+	<dcterms:identifier>Q422</dcterms:identifier>
+	<afs:essai>museumdetoulouse</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/120">
+	<dcterms:identifier>Q9496</dcterms:identifier>
+	<afs:essai>operadelyon</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/121">
+	<dcterms:identifier>Q3354560</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/122">
+	<dcterms:identifier>Q1124095</dcterms:identifier>
+	<afs:essai>pages/Musée-de-Cluny/238709326290838</afs:essai>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/123">
+	<dcterms:identifier>Q3100297</dcterms:identifier>
+	<afs:essai>MaisonEuropeennePhotographie</afs:essai>
+	<afs:twitter>mep_paris</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/124">
+	<dcterms:identifier>Q1952944</dcterms:identifier>
+	<afs:essai>musee.grenoble</afs:essai>
+	<afs:twitter>museedegrenoble</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/125">
+	<dcterms:identifier>Q3140928</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/126">
+	<dcterms:identifier>Q2628596</dcterms:identifier>
+	<afs:essai>285222818156585</afs:essai>
+	<afs:twitter>PBALille</afs:twitter>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/127">
+	<dcterms:identifier>Q2945064</dcterms:identifier>
+	<afs:essai>659106197455633</afs:essai>
+</rdf:Description>
+
+</rdf:RDF>
