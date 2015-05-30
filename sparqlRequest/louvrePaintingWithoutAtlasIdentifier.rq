@@ -1,0 +1,11 @@
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX v: <http://www.wikidata.org/prop/statement/>
+SELECT ?tableau WHERE {
+   ?tableau wdt:P31 wd:Q3305213;
+            wdt:P195 wd:Q3044768.
+  FILTER NOT EXISTS {?tableau wdt:P1212 ?atlas}
+  FILTER NOT EXISTS {?tableau wdt:P195 wd:Q23402}
+ }
